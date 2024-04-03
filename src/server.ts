@@ -27,3 +27,6 @@ app.post('/events', async (request, reply)=>{
   return { eventID: event.id }
 })
 
+app.listen({ port: 3333, host: '0.0.0.0' }).then(() => {
+  console.log('HTTP server running!')
+})
