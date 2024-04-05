@@ -6,7 +6,7 @@ import { generateSlug } from "../utils/generate-slug";
 import { prisma } from "../lib/params";
 
 
-export function createEvent(app: FastifyInstance)
+export async function createEvent(app: FastifyInstance)
 {
   app.withTypeProvider<ZodTypeProvider>().post(
   "/events",

@@ -6,3 +6,13 @@ Content-Type: application/json
   "details": "Um evento para quem é apaixonado por programação", 
   "maximumAttendees": 100
 }
+
+###
+
+POST http://localhost:3333/events/7fdf5ac9-9ddc-44b8-91d6-e07c01c120cc/attendees
+Content-Type: application/json
+
+{ 
+  "name": "Jersy Fernandes", 
+  "email": "jersysilvafernandes@gmail.com"
+}
