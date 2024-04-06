@@ -2,7 +2,7 @@ import { z } from "zod"
 import { ZodTypeProvider } from "fastify-type-provider-zod";
 import { FastifyInstance } from "fastify";
 
-import { prisma } from "../lib/params";
+import { prisma } from "../lib/prisma";
 
 
 export async function checkIn(app: FastifyInstance)
