@@ -39,7 +39,7 @@ Nessa aplicação vamos utilizar banco de dados relacional (SQL). Para ambiente 
 
 ### Diagrama ERD
 
-<img src=".github/erd.svg" width="600" alt="Diagrama ERD do banco de dados" />
+<img src="https://github.com/JersyFernandesJF/nlw-unite-nodejs/assets/102835855/f1ae6dca-50a4-4ebd-9408-133e8f720a84" width="600" alt="Diagrama ERD do banco de dados" />
 
 ### Estrutura do banco (SQL)
 
